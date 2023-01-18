@@ -70,7 +70,7 @@ const Header = () => {
       <div
         className={`${
           isopen ? "hidden" : "flex"
-        } md:flex bg-[#0f0f0f] text-white mt-6 md:mx-[5.125rem] mx-4 px-8 gap-4 justify-between items-center rounded-[2.5rem]`}
+        } md:flex bg-[#0f0f0f] text-white mt-6 md:mx-[5.125rem] mx-4 px-8 justify-between items-center rounded-[2.5rem]`}
       >
         <FaBars
           className="md:hidden static w-8 h-8 mx-[0.87rem] cursor-pointer "
@@ -85,7 +85,7 @@ const Header = () => {
           <HiDownload />
         </div>
 
-        <ul className="md:flex hidden w-fit gap-[2vw] md:my-4  ml-[1.7rem] font-gt-walsheim-pro font-normal text-[1.11vw]  ">
+        <ul className="md:flex hidden w-full justify-end gap-[2vw] md:my-4  ml-[1.7rem] mr-[3.75rem] font-gt-walsheim-pro font-normal text-[1.11vw]  ">
           <li className="my-4 ">
             <a href="">FEATURES</a>
           </li>
@@ -104,7 +104,7 @@ const Header = () => {
         </ul>
 
         <Dropdown
-          className="hidden md:flex mr-[2.62rem] rounded-[1.5rem] border-yellow-400 w-18  "
+          className="hidden md:flex mr-[2.62rem] rounded-[1.5rem] border-yellow-400 w-18 justify-center items-center  "
           menu={{
             items,
             selectable: true,
@@ -114,7 +114,7 @@ const Header = () => {
           placement="bottom"
           arrow
         >
-          <Button className="text-white flex gap-1 justify-between ">
+          <Button className="text-white flex gap-1 justify-center items-center ">
             <img src="../../language.svg" alt="" />
             {selects}
           </Button>
@@ -123,7 +123,7 @@ const Header = () => {
       <div
         className={`${
           isopen ? "absolute" : "hidden"
-        } md:hidden bg-[#0f0f0f] text-white w-full left-0 `}
+        } md:hidden bg-[#0f0f0f] text-white w-full left-0 top-0 pt-24 `}
       >
         <div className="flex justify-between items-center ml-[3.75rem] mr-8">
           <img
@@ -167,7 +167,7 @@ const Header = () => {
           </div>
           <div>
           <Dropdown
-            className="flex mr-[2.62rem] rounded-[1.5rem] border-yellow-400 w-18 font-gt-walsheim-pro"
+            className="flex mr-[2.62rem] rounded-[1.5rem] border-yellow-400 w-18 font-gt-walsheim-pro justify-center items-center"
             menu={{
               items,
               selectable: true,
@@ -177,7 +177,7 @@ const Header = () => {
             placement="bottom"
             arrow
           >
-            <Button className="text-white flex gap-1 justify-between ">
+            <Button className="text-white flex gap-1 justify-center items-center ">
               <img src="../../language.svg" alt="" />{" "}
               {selects}
             </Button>

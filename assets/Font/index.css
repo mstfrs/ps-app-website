@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "GT Walsheim Pro";
+  src: url("./GTWalsheimPro-Regular.ttf");
+}
+
+@font-face {
+  font-family: "GT Walsheim Pro Medium";
+  src: url("./GTWalsheimPro-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Cambon";
+  src: url("./Cambon-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Cambon Medium";
+  src: url("./Cambon-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Cambon Bold";
+  src: url("./Cambon-Bold.ttf");
+}
