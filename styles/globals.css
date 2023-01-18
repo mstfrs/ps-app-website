@@ -3,6 +3,37 @@
 @tailwind utilities;
 @import "../assets/Font/";
 
+.row1-text{
+  font-size: clamp(0.75rem,1.6vw,.5rem)
+}
+.row1-title{
+  font-size: clamp(2.25rem,4.16vw,3.75rem)
+}
+.row2-text{
+  font-size: clamp(0.75rem,1.6vw,1.5rem)
+}
+.row2-title{
+  font-size: clamp(1.75rem,2.7vw,2.5rem)
+}
+.row3-title1{
+  font-size: clamp(1.75rem,2.7vw,2.5rem)
+}
+.row3-title2{
+  font-size: clamp(1.75rem,2.7vw,2.5rem)
+}
+.row3-text1{
+  font-size: clamp(1.12rem,1.6vw,1.5rem)
+}
+.row3-text2{
+  font-size: clamp(0.75rem,1.6vw,1.12rem)
+}
+.row4-title1{
+  font-size: clamp(1.75rem,2.7vw,2.5rem)
+}
+.row4-text1{
+  font-size: clamp(1.12rem,1.6vw,1.5rem)
+}
+
 /* html,
 body {
   padding: 0;
